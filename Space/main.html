@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HABL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="sidebar close">
+        <div class="logo-details">
+            <img src="../assets/Logo.png" alt="HABL">
+            <span class="logo_name">HABL</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#">
+                    <i class='bx bx-wind'></i>
+                    <span class="link_name">Green House Gases</span>
+                </a>
+                <input type="range" class="range-slider"> <!-- Range Slider -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-tree'></i>
+                    <span class="link_name">Bio Diversity</span>
+                </a>
+                <input type="range" class="range-slider"> <!-- Range Slider -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-water'></i>
+                    <span class="link_name">Sea Levels</span>
+                </a>
+                <input type="range" class="range-slider"> <!-- Range Slider -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-sun'></i>
+                    <span class="link_name">Surface Temp</span>
+                </a>
+                <input type="range" class="range-slider"> <!-- Range Slider -->
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <div class="home-content">
+            <i class='bx bx-menu'></i>
+        </div>
+        
+        <div class="map-container">
+            <!-- {TASK: Add map code below} -->
+            <div id="map-box">
+                <!-- Placeholder for your future map -->
+                <p style="text-align:center; padding: 50px; color: #fff;">Your map will appear here.</p>
+            </div>
+            <!-- {TASK: Add map code above} -->
+        </div>
+
+        <!-- Single adjustable box section for adding scripts or text -->
+        <section class="custom-box-section">
+            <div id="custom-box">
+                <!-- Placeholder for additional content -->
+                <p style="text-align:center; padding: 20px; color: #fff;">Add your content here.</p>
+                <!-- {TASK: You can add scripts or other elements here in the future} -->
+            </div>
+        </section>
+    </section>
+    <script src="globe.js"></script>
+</body>
+</html>
